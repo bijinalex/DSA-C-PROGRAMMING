@@ -60,6 +60,5 @@ int main() {
         printf("%dx^%d", p3[i].coeff, p3[i].expo);
     }
     printf("\n");
-
     return 0;
 }
