@@ -39,7 +39,7 @@ int main() {
         }
     }
 
-    // Copy remaining terms
+
     while (i < m) {
         p3[k] = p1[i];
         i++; k++;
@@ -49,7 +49,7 @@ int main() {
         j++; k++;
     }
 
-    // Print result
+
     printf("Sum of the polynomials: ");
     for (i = 0; i < k; i++) {
         if (p3[i].coeff == 0) continue;
